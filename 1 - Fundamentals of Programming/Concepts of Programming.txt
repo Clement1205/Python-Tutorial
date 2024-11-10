@@ -4,7 +4,7 @@ like verbal languages, but with different syntax.
 The following list allows you to understand more why there are so many programming languages (for your knowledge, no need
 to memorise):
 ------------------------------------------------------------------------------------------------------------------------
-Python: Most widely used and 'user friendly'
+Python: Most widely used and 'user friendly', INDENTATION SUPER IMPORTANT, no ';' behind each line
 C++: The fastest programming language, most widely used in games and other areas that requires speed. Supports OOP.
 Java: Mainly used for OOP because of its structure, but it's too slow (Minecraft is using Java that's why it sucks)
 

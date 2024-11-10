@@ -7,11 +7,13 @@ hand corner asking you whether you wanna download), then you will find a run but
 the right on the top right hand corner. When you wanna run, just click on it and the output will appear in the terminal
 underneath.
 
-2. To save a file, go to source control on the left sidebar (underneath the magnifying glass), you will see a text box
+2. If your terminal has too many outputs, type "clear" when the code is not running to clear the terminal
+
+3. To save a file, go to source control on the left sidebar (underneath the magnifying glass), you will see a text box
 above the "COMMIT" button. Type "git commit" and press on the button. Press on sync changes and the file is saved in your
 Github account.
 
-3. To save a file to your computer, press on the triple lines button on the sidebar (above files) and click file -> Save As,
+4. To save a file to your computer, press on the triple lines button on the sidebar (above files) and click file -> Save As,
 then click on show local.
 
-4. The .gitignore and README.md files are system files: if you delete it then the entire thingy breaks down. So leave it :)
+5. The .gitignore and README.md files are system files: if you delete it then the entire thingy breaks down. So leave it :)
