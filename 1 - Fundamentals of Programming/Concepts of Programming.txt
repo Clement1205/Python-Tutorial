@@ -1,0 +1,21 @@
+There are LOTS of programming languages in IT industry, each has different advantages and disadvantages. They are just
+like verbal languages, but with different syntax.
+
+The following list allows you to understand more why there are so many programming languages (for your knowledge, no need
+to memorise):
+------------------------------------------------------------------------------------------------------------------------
+Python: Most widely used and 'user friendly'
+C++: The fastest programming language, most widely used in games and other areas that requires speed. Supports OOP.
+Java: Mainly used for OOP because of its structure, but it's too slow (Minecraft is using Java that's why it sucks)
+
+and more!
+------------------------------------------------------------------------------------------------------------------------
+Different programming languages have different syntax. For example, printing in
+Python: print("Hello World!")
+C++: std::cout << "Hello World";
+Java: System.out.println("Hello World")
+
+so don't stress yourself too much if you are required to learn multiple programming languages! Just rmb the syntax and
+you'll master it :)
+
+Without further ado, let's start!

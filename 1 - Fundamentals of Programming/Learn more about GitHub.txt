@@ -1,0 +1,11 @@
+Github is different from the notebook you guys are using, it is truly designed for coding and has way more flexibility of
+exporting files or sharing files.
+
+How to use:
+1. To run a code, install the python extension first (simply hop on any .py files and there will be a message on the bottom
+hand corner asking you whether you wanna download), then you will find a run button in a shape of a triangle pointing to
+the right on the top right hand corner. When you wanna run, just click on it and the output will appear in the terminal
+underneath.
+
+2. To save a file, go to source control on the left sidebar (underneath the magnifying glass), you will see a text box
+above the "COMMIT" button. Type "git commit" and press on the button.
