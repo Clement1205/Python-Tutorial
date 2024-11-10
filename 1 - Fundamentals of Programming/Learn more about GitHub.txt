@@ -8,4 +8,10 @@ the right on the top right hand corner. When you wanna run, just click on it and
 underneath.
 
 2. To save a file, go to source control on the left sidebar (underneath the magnifying glass), you will see a text box
-above the "COMMIT" button. Type "git commit" and press on the button.
+above the "COMMIT" button. Type "git commit" and press on the button. Press on sync changes and the file is saved in your
+Github account.
+
+3. To save a file to your computer, press on the triple lines button on the sidebar (above files) and click file -> Save As,
+then click on show local.
+
+4. The .gitignore and README.md files are system files: if you delete it then the entire thingy breaks down. So leave it :)
