@@ -14,9 +14,17 @@ string = "hi"
 
 print(integer + float)
 print(boolean)
-print(string)
+print(string + "\n")
 
 print(f"{string}! This is a mixture of variables and strings that I type")
 print(string + "! This is a mixture of variables and strings that I type")
 
 # The format of f-strings are f"", everything you write inside is a string. To add a variable, simply add a {}.
+print('-' * 40)
+
+# Advanced Concepts
+# Converting integer into float
+print(f"{integer:.2f}") # 2 decimal places
+
+print(f"The price is {integer * float} dollars")
+

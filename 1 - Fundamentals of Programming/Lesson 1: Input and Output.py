@@ -42,8 +42,25 @@ print(text_with_space + "Mimosa!") # now my new text has a space, so when i run 
 
 print('-' * 40)
 
-user_input = input(text)
+user_input = input(text) # this method may not be used often, as it makes things complicated, like what does "text" mean?
 print(user_input)
 
-name = input("What is your name? ")
+name = input("What is your name? ") # faster to write your own message here
 print(f"Welcome home {name}!") # will teach this in lesson 2, this is a f-string, NOT a f-bomb.
+
+
+# Advanced Concepts
+# Printing symbols like ", ', \
+print("\"")
+print("\n") # this skips a line (prints a blank line)
+print("\'")
+print("\\")
+print("You\nwill\nget\n A+!")
+
+# Tricky Question
+print('-' * 40)
+""" 
+Guess the output of the following:
+print("\"\\\\n\n\'good luck\'\"with that\"")
+"""
+print("\"\\\\n\n\'good luck\'\"with that\"")
