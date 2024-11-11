@@ -7,8 +7,11 @@ String (str): "This is a string"
 Lists, Tuples: ["will be covered later!"], ()
 
 Casting:
-age = 20
-str(age) casts the number 20 into string (to print it out)
+your_age = 20
+str(your_age) casts the number 20 into string (to print it out)
+int("20") converts the string "20" into an integer for calculation
+age = int(input("Please enter your age: ")) stores the user input as an integer. Error will occur if the input is NOT an
+integer.
 """
 
 # Let's try!
@@ -20,9 +23,6 @@ string = "hi"
 print(integer + float)
 print(boolean)
 print(string + "\n")
-
-num = float(input("Enter a number: "))
-print(str(num))
 
 print(f"{string}! This is a mixture of variables and strings that I type")
 print(string + "! This is a mixture of variables and strings that I type")

@@ -27,4 +27,22 @@ if functional != True or functional == False: # this is just an illustration, bo
 # no need to write "else:" if you want it to print nothing
 print('-' * 40)
 # 3.
-first_no = input("Please enter the first number")
+first_no = input("Please enter the first number: ")
+second_no = input("Please enter the second number: ")
+if first_no > second_no:
+    print(f"{first_no} is larger than {second_no}.")
+elif first_no < second_no:
+    print(f"{first_no} is smaller than {second_no}.")
+elif first_no == second_no:
+    print(f"{first_no} is equal to {second_no}.")
+else:
+    print("Please enter a number.")
+
+print('-' * 40)
+# Advanced Concepts
+# 4.
+username = input("Please enter your username: ")
+if username.lower() == "mimosa": #lower() turns every alphabet in the string into lowercase; upper() for uppercase
+    print("Access Granted.")
+else:
+    print("Access Denied.")
