@@ -19,14 +19,6 @@ There are 3 ways of printing stuff in python: printing a string, printing a vari
 3. print(text + " Mimosa!")               <- this is called concatenation
 """
 
-#Input
-"""
-------------------------------------------------------------------------------------------------------------------------
-The same goes for requesting input from users, we store an input in a variable (we will cover this in lesson 2)
-1. name = input("What is your name?")
-2. user_input = input(text)
-"""
-
 # Let's try!
 print('-' * 40) # a way of printing special symbols, here it's just seperating the outputs when you run so it looks better.
 
@@ -41,6 +33,15 @@ text_with_space = " hi "
 print(text_with_space + "Mimosa!") # now my new text has a space, so when i run it will automatically add a space.
 
 print('-' * 40)
+
+
+#Input
+"""
+------------------------------------------------------------------------------------------------------------------------
+The same goes for requesting input from users, we store an input in a variable (we will cover this in lesson 2)
+1. name = input("What is your name?")
+2. user_input = input(text)
+"""
 
 user_input = input(text) # this method may not be used often, as it makes things complicated, like what does "text" mean?
 print(user_input)
