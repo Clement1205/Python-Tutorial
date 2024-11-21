@@ -18,3 +18,52 @@ Built in list-functions:
 9. sort(): sorts the items in the list alphabetically (does NOT work for numbers)
 -------------------------------------------------------------------------------------------------------------------------
 """
+# For example
+sports = ["bowling", "badminton", "table tennis"]
+print(sports)
+
+sports.append("volleyball")
+print(f"Append: {sports}") # concatenation does NOT work for lists!
+
+"""
+An index refers to the position of the element in the array.
+All indices in arrays start from 0 and adds up.
+In sports array, the index of "bowling" is 0, "badminton" is 1, and so on. You can use this to iterate through lists in a
+for loop, but python has an easier way.
+"""
+sports.pop(2)
+print(f"Pop(2): {sports}")
+
+sports.pop()
+print(f"Pop(): {sports}")
+
+sports.remove("badminton")
+print(f"Remove: {sports}")
+
+sports.insert(1, "football")
+print(f"Insert(): {sports}")
+
+
+sport1 = sports
+print(sport1)
+
+"""
+You can use for loops to iterate through lists!
+"""
+# using for loops in lists (this method is only available in python!)
+marks = [10, 90, 77, 78, 45, 29, 71, 62, 88, 50]
+sum = 0
+
+for i in marks:   # this iterates the list from the beginning to the end, storing the value in i for each iteration.
+    print(i, end= " ")     # for each iteration, I print the value of i out, seperated with a space
+    sum += i
+average = sum / len(marks) # len() is only available for lists (count no. of values) and strings (count no. of characters)
+
+print(f"\nAverage: {int(average)}") # casting average into integer (same as round down!)
+
+"""
+Tuples are just the same as lists, except it is UNmodifible. You cannot edit anything inside, the elements inside are
+fixed when created. Any attempt to try to modify tuples will result in an error.
+"""
+marks_tuple = tuple(marks)
+print(marks_tuple)
