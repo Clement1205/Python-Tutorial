@@ -42,6 +42,7 @@ while(True): # True by defualt, so must be true -> must run this segment
     print("3 - Multiplication")
     print("4 - Division")
     print("Exit - Exit")
+    print('-' * 40)
     option = input("Your option: ")
 
     # lower() makes everything lowercase, strip() removes all spaces in the beginning and the end of strings
