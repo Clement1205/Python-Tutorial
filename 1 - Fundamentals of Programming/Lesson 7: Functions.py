@@ -32,8 +32,7 @@ def text():
     num2 = input("Please enter the second number: ")
     return num1, num2 # can return 2 variables at once, then you need 2 variables to store the data
 
-functional = True
-while(functional == True):
+while(True): # True by defualt, so must be true -> must run this segment
     values = ["1", "2", "3", "4", "exit"] # set a list of inputs, if users are not typing these, they have to input again
 
     print('*' * 40)
@@ -46,23 +45,23 @@ while(functional == True):
     option = input("Your option: ")
 
     # lower() makes everything lowercase, strip() removes all spaces in the beginning and the end of strings
-    match option.lower().strip() in values: 
-        case "1":
-            num1, num2 = text() # text() is returning 2 variables, so you assign 2 variables to store them
-            addition(float(num1), float(num2)) # all inputs from users are strings. You have to cast them to float.
-        case "2":
-            num1, num2 = text()
-            subtraction(float(num1), float(num2))
-        case "3":
-            num1, num2 = text()
-            multiplication(float(num1), float(num2))
-        case "4":
-            num1, num2 = text()
-            division(float(num1), float(num2))
-        case 'exit':
-            print("Thank you for using Calculator!")
-            #functional == False
-            break
-        case _:
-            print("Option not available. Please try again.")
-            continue
+    if option.lower().strip() in values:
+        match option.lower().strip(): 
+            case "1":
+                num1, num2 = text() # text() is returning 2 variables, so you assign 2 variables to store them
+                addition(float(num1), float(num2)) # all inputs from users are strings. You have to cast them to float.
+            case "2":
+                num1, num2 = text()
+                subtraction(float(num1), float(num2))
+            case "3":
+                num1, num2 = text()
+                multiplication(float(num1), float(num2))
+            case "4":
+                num1, num2 = text()
+                division(float(num1), float(num2))
+            case 'exit':
+                print("Thank you for using Calculator!")
+                break # without this, the function will loop again.
+    else:
+        print("Option not available. Please try again.")
+        continue
