@@ -3,7 +3,8 @@ My own definition of functions is that it helps you group your codes together. I
 from underneath.
 
 Note:
-1. In every function, you have to return something out, no matter a value or a string. If not, add a word "pass"
+1. In every function, you have to return or print something out, no matter a value or a string. You print a string and
+return a value.
 
 2. The brackets next to the function name are called parameters. You have to fulfill those parameters when you call the
 function from underneath. E.g def function_name(num1, num2) blablabla, when you call it, function_name(20, 50)
@@ -15,16 +16,16 @@ an error.
 # function
 
 def addition(num1, num2):
-    return num1 + num2
+    print("Your answer is " + str(num1 + num2))
 
 def subtraction(num1, num2): 
-    return num1 - num2
+    print("Your answer is " - str(num1 + num2))
 
 def multiplication(num1, num2):
-    return num1 * num2
+    print("Your answer is " * str(num1 + num2))
 
 def division(num1, num2):
-    return num1 / num2
+    print("Your answer is " / str(num1 + num2))
 
 def text():
     num1 = input("Please enter the first number: ")
@@ -33,7 +34,7 @@ def text():
 
 functional = True
 while(functional == True):
-    values = [1, 2, 3, 4, "exit"] # set a list of inputs, if the user are not inputting these, they have to input again
+    values = ["1", "2", "3", "4", "exit"] # set a list of inputs, if users are not typing these, they have to input again
 
     print('*' * 40)
     print("Welcome to Calculator! Please choose one of the options below:\n")
@@ -46,21 +47,21 @@ while(functional == True):
 
     # lower() makes everything lowercase, strip() removes all spaces in the beginning and the end of strings
     match option.lower().strip() in values: 
-        case 1:
+        case "1":
             num1, num2 = text()
-            addition(num1, num2)
-        case 2:
+            addition(float(num1), float(num2))
+        case "2":
             num1, num2 = text()
-            subtraction(num1, num2)
-        case 3:
+            subtraction(float(num1), float(num2))
+        case "3":
             num1, num2 = text()
-            multiplication(num1, num2)
-        case 4:
+            multiplication(float(num1), float(num2))
+        case "4":
             num1, num2 = text()
-            division(num1, num2)
-        case "exit":
+            division(float(num1), float(num2))
+        case 'exit':
             print("Thank you for using Calculator!")
-            functional == False
+            #functional == False
             break
         case _:
             print("Option not available. Please try again.")
