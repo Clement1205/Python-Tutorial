@@ -6,6 +6,8 @@ while loops. Here are their differences:
 2. while loops: you loop it based on the conditions you've written.
 3. for loops: another type of while loop, but can more conveniently iterate between lists or even dataframes.
 
+Break means breaking the loop, continue means skipping the current loop to the next one.
+
 NOTE: There are NO do-while loops in python! Only for loops and while loops are available.
 """
 # Let's try!
@@ -22,3 +24,12 @@ for i in range(1, 11): # for loop in range (1, x) prints out from 1 to (x-1)
     print(i, end= " ")
 
 print("\n" + "-" * 40)
+
+for i in range(1, 21):
+    if i % 2 == 0:
+        continue
+    elif i > 15:
+        print("Break!\n")
+        break
+    else:
+        print(i, end= " ")
