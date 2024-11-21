@@ -25,7 +25,7 @@ def multiplication(num1, num2):
     print("Your answer is " + str(num1 * num2))
 
 def division(num1, num2):
-    print("Your answer is " + str(num1 / num2))
+    print(f"Your answer is {(num1 / num2):.2f}") # you do NOT need to cast to string with f-string
 
 def text():
     num1 = input("Please enter the first number: ")
@@ -41,7 +41,7 @@ while(True): # True by defualt, so must be true -> must run this segment
     print("2 - Subtraction")
     print("3 - Multiplication")
     print("4 - Division")
-    print("exit - Exit")
+    print("Exit - Exit")
     option = input("Your option: ")
 
     # lower() makes everything lowercase, strip() removes all spaces in the beginning and the end of strings
