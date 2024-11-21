@@ -19,13 +19,13 @@ def addition(num1, num2):
     print("Your answer is " + str(num1 + num2))
 
 def subtraction(num1, num2): 
-    print("Your answer is " - str(num1 + num2))
+    print("Your answer is " + str(num1 - num2))
 
 def multiplication(num1, num2):
-    print("Your answer is " * str(num1 + num2))
+    print("Your answer is " + str(num1 * num2))
 
 def division(num1, num2):
-    print("Your answer is " / str(num1 + num2))
+    print("Your answer is " + str(num1 / num2))
 
 def text():
     num1 = input("Please enter the first number: ")
