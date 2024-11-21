@@ -30,7 +30,7 @@ def division(num1, num2):
 def text():
     num1 = input("Please enter the first number: ")
     num2 = input("Please enter the second number: ")
-    return num1, num2
+    return num1, num2 # can return 2 variables at once, then you need 2 variables to store the data
 
 functional = True
 while(functional == True):
@@ -48,8 +48,8 @@ while(functional == True):
     # lower() makes everything lowercase, strip() removes all spaces in the beginning and the end of strings
     match option.lower().strip() in values: 
         case "1":
-            num1, num2 = text()
-            addition(float(num1), float(num2))
+            num1, num2 = text() # text() is returning 2 variables, so you assign 2 variables to store them
+            addition(float(num1), float(num2)) # all inputs from users are strings. You have to cast them to float.
         case "2":
             num1, num2 = text()
             subtraction(float(num1), float(num2))
