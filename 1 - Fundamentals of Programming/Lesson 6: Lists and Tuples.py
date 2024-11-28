@@ -67,3 +67,29 @@ fixed when created. Any attempt to try to modify tuples will result in an error.
 """
 marks_tuple = tuple(marks)
 print(marks_tuple)
+
+"""
+-------------------------------------------------------------------------------------------------------------------------
+Some extra list and tuple expressions:
+1. list[index]: returns the element of the list based on the index number
+2. list[-index]: count the index from the right, and return the element on the list based on the number
+3. list[index:]: returns everything after the index number (INCLUDING the index element!)
+4. list[::index]: returns the first element, (first+index) element, (first+index+index) element, etc
+5. list[num::index]: returns the num element, (num+index) element, (num+index+index) element, etc
+6. list[::-1]: returns the list in descending order (from the right to left)
+7. max(list): returns the element with the largest index in the list (the rightmost one)
+8. min(list): returns the element with the smallest index in the list (the leftmost one)
+-------------------------------------------------------------------------------------------------------------------------
+"""
+print('-' *40)
+t1 = ("apple", "box", "cake", "disk")
+t2 = (1, 2, 3, 4, 5)
+
+print(f"t1[3] = {t1[3]}")
+print(f"t1[-2] = {t1[-2]}")
+print(f"t1[2:] = {t1[2:]}")
+print(f"t1[::2] = {t1[::2]}")
+print(f"t1[1::2] = {t1[1::2]}")
+print(f"t1[-1] = {t1[-1]}")
+print(f"max(t1) = {max(t1)}")
+print(f"min(t1) = {min(t1)}")
