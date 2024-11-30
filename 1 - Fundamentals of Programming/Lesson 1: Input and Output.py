@@ -12,11 +12,13 @@ These messages are written in docstrings. The program will ignore these while be
 
 # Output
 """
-There are 3 ways of printing stuff in python: printing a string, printing a variable, printing a string + a variable
+There are 4 ways of printing stuff in python: printing a string, printing a variable, printing a string + a variable, and
+f-string.
 1. print("bye")
 2. text = "hi"
    print(text)
 3. print(text + " Mimosa!")               <- this is called concatenation
+4. print(f"{text} Mimosa!")               <- will show this in lesson 2
 """
 
 # Let's try!
@@ -41,6 +43,7 @@ print('-' * 40)
 The same goes for requesting input from users, we store an input in a variable (we will cover this in lesson 2)
 1. name = input("What is your name?")
 2. user_input = input(text)
+------------------------------------------------------------------------------------------------------------------------
 """
 
 user_input = input(text) # this method may not be used often, as it makes things complicated, like what does "text" mean?
@@ -61,7 +64,9 @@ print("You\nwill\nget\n A+!")
 # Tricky Question
 print('-' * 40)
 """ 
+------------------------------------------------------------------------------------------------------------------------
 Guess the output of the following:
 print("\"\\\\n\n\'good luck\'\"with that\"")
+------------------------------------------------------------------------------------------------------------------------
 """
 print("\"\\\\n\n\'good luck\'\"with that\"")
