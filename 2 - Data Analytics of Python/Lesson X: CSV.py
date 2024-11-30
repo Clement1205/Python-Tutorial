@@ -23,6 +23,6 @@ with open("example.csv", "r") as infile:
         output_data.append((id, name, average))
 
 with open("example_out.csv", "w") as outfile:
-    outfile.write("ID, Name, Average")
+    outfile.write("ID, Name, Average\n")
     for id, name, average in output_data: # as long as these 3 are in output_data list, then do the following statement
         outfile.write(f"{id},{name},{average:.1f}\n")
