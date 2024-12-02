@@ -93,3 +93,22 @@ print(f"t1[1::2] = {t1[1::2]}")
 print(f"t1[-1] = {t1[-1]}")
 print(f"max(t1) = {max(t1)}")
 print(f"min(t1) = {min(t1)}")
+
+
+# Advanced Concept: Enumerate
+print('-' *40)
+for ele in enumerate(t1):
+    print (ele)
+
+# unpacking the tuple (index, value) into the variables index and value, so you are printing the value -> no brackets
+for index, value in enumerate(t1):
+    print(index, value)
+
+# changing index and printing separately
+for count, ele in enumerate(t1, 100):
+    print (count, ele)
+
+# getting desired output from tuple
+for count, ele in enumerate(t1):
+    print(count)
+    print(ele)
