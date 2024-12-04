@@ -65,4 +65,4 @@ while(True): # True by defualt, so must be true -> must run this segment
                 break # without this, the function will loop again.
     else:
         print("Option not available. Please try again.")
-        continue
+        continue # you don't really need this in this case

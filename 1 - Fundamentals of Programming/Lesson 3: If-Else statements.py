@@ -11,7 +11,7 @@ Note: Indentations are SUPER IMPORTANT in python!
 # Let's try!
 # 1.
 age = int(input("Please enter your age: "))
-if age > 0 and age < 18: # (age > 0 and age < 18) is a parameter. If it is true, the indented statement will be printed
+if age > 0 & age < 18: # (age > 0 and age < 18) is a parameter. If it is true, the indented statement will be printed
     print("Hello kiddo!")
 elif age >= 18 and age <= 100: # elif means else if. if the first parameter is false, it will come here
     print("Hello adult!")
