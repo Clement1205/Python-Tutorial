@@ -94,6 +94,29 @@ print(f"t1[-1] = {t1[-1]}")
 print(f"max(t1) = {max(t1)}")
 print(f"min(t1) = {min(t1)}")
 
+"""
+-------------------------------------------------------------------------------------------------------------------------
+Built-in dict expressions:
+1. clear(): removes all elements from the dictionary
+2. get(key): returns the value of a specified key
+3. items(): returns a list containing a tuple for each key value pair
+4. keys(): returns a list containing the dictionary's keys
+5. pop(key): removes the element with the specified key
+6. values(): returns the list with all the values in the dictionary
+-------------------------------------------------------------------------------------------------------------------------
+"""
+capital = {
+  "UK": "London", 
+  "US": "Washington DC", 
+  "China": "Beijing",
+  "Japan": "Tokyo"
+} # UK is the key, London is the value, that's why dictionaries are key value pairs
+
+# loop through the dict extracting key and value
+
+for c,r in capital.items():
+    print( c,r ) # c and r only works within the for loop
+
 
 # Advanced Concept: Enumerate
 print('-' *40)

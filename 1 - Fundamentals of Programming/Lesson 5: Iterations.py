@@ -18,10 +18,15 @@ while(temp <= 10):
     print(temp, end= " ") 
     temp += 1 # the same as temp = temp + 1
 
+
+
+
 # for loop
 print("\nfor loop: ", end= " ")
 for i in range(1, 11): # for loop in range (1, x) prints out from 1 to (x-1)
     print(i, end= " ")
+
+
 
 print("\n" + "-" * 40)
 
@@ -33,3 +38,9 @@ for i in range(1, 21):
         break
     else:
         print(i, end= " ")
+
+print("\n" + "-" * 40)
+course = "Computer Science"
+
+for ch in course :
+	print(ch) # can you guess the output?
