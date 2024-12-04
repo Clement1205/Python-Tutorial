@@ -42,5 +42,5 @@ for i in range(1, 21):
 print("\n" + "-" * 40)
 course = "Computer Science"
 
-for ch in course :
+for ch in course:
 	print(ch) # can you guess the output?

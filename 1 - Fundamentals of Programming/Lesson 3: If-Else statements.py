@@ -10,13 +10,17 @@ Note: Indentations are SUPER IMPORTANT in python!
 
 # Let's try!
 # 1.
-age = input("Please enter your age: ")
+age = int(input("Please enter your age: "))
 if age > 0 and age < 18: # (age > 0 and age < 18) is a parameter. If it is true, the indented statement will be printed
     print("Hello kiddo!")
 elif age >= 18 and age <= 100: # elif means else if. if the first parameter is false, it will come here
     print("Hello adult!")
 else:  # age must be between 1 to 100 (you need to think of the boundaries and think of the constraints)
     print("You are faking your age!")
+
+
+
+
 
 print('-' * 40)
 # 2.
@@ -25,6 +29,11 @@ if functional != True or functional == False: # this is just an illustration, bo
     print("Maintenance is needed.")
 
 # no need to write "else:" if you want it to print nothing
+
+
+
+
+
 print('-' * 40)
 # 3.
 first_no = input("Please enter the first number: ")
