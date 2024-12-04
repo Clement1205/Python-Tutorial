@@ -19,8 +19,11 @@ Built in list-functions:
 -------------------------------------------------------------------------------------------------------------------------
 """
 # For example
-sports = ["bowling", "badminton", "table tennis"]
+sports = ["bowling", "table tennis", "badminton"]
 print(sports)
+
+sports.sort()
+print(f"Sort: {sports}")
 
 sports.append("volleyball")
 print(f"Append: {sports}") # concatenation does NOT work for lists!
@@ -42,7 +45,6 @@ print(f"Remove: {sports}")
 
 sports.insert(1, "football")
 print(f"Insert(): {sports}")
-
 
 sport1 = sports
 print(sport1)
@@ -116,6 +118,8 @@ capital = {
 
 for c,r in capital.items():
     print( c,r ) # c and r only works within the for loop
+
+
 
 
 # Advanced Concept: Enumerate
