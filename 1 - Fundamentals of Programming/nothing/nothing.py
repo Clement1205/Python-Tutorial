@@ -19,3 +19,26 @@ for i in range(1, 100):
     if i == 2:
         break
     print(i)
+
+i = 1
+if i < 0 | i > 0:
+    print(i)
+
+
+
+print('-' * 40)
+def something(n):
+    container = 0
+    while(True):
+        if n // 2 == 1:
+            return (container + 1)
+        else:
+            if n % 2 == 1:
+                container += 1
+                n /= 2
+            else:
+                n /= 2
+
+print(something(5))
+print(something(7))
+print(something(8))
